@@ -87,6 +87,7 @@ html, body
   position: relative; /* الافتراضي */
   width: 100%;
   margin-top: auto; /* دفعه للأسفل */
+    flex:1;
 }
 
 /* جعل الـ footer مرنًا في الأجهزة الصغيرة */
