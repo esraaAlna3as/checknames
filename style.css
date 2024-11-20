@@ -81,13 +81,12 @@ html, body
 
 /* إجبار الـ footer على البقاء في الأسفل */
 .footer {
-  background-color: black;
-  padding: 15px 0; /* لتوفير مساحة مناسبة */
-  text-align: center; /* تحسين التمركز */
-  position: relative; /* الافتراضي */
-  width: 100%;
-  margin-top: auto; /* دفعه للأسفل */
-    flex:1;
+    background-color: black;
+    color: #faf7f7;
+    padding: 20px 50px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; /* يجعل الـ Footer دائمًا في الأسفل */
 }
 
 /* جعل الـ footer مرنًا في الأجهزة الصغيرة */
