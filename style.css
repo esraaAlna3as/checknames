@@ -84,7 +84,7 @@ html, body
     padding: 20px 50px;
     text-align: center;
     width: 100%;
-    margin-top: auto; /* يجعل الـ Footer دائمًا في الأسفل */
+    margin: auto; /* يجعل الـ Footer دائمًا في الأسفل */
     z-index: 10; /* أعلى من العناصر الأخرى */
     position: relative; /* مطلوب لتفعيل z-index */
    
