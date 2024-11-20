@@ -1,8 +1,11 @@
-body
+html, body
 {
     font-family: 'Cairo', sans-serif;
     background-color: #f4f9f6;
     margin-bottom: 80px;
+     height: 100%; /* لجعل الصفحة تمتد بالكامل */
+    display: flex;
+    flex-direction: column;
 }
 
 .btn-success
@@ -39,6 +42,7 @@ body
 .search-container {
     margin: 75px auto;
     text-align: center;
+     flex: 1;
     
   }
 
@@ -76,17 +80,11 @@ body
 
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
+   background-color: black;
     color: #faf7f7;
-    padding-right: 40px;
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 10px; /* إضافة مساحة داخلية سفلية */
-    z-index: 10; /* ضمان أن يبقى الـ Footer فوق باقي العناصر */
-    text-align: center; /* لتنسيق المحتوى */
+    padding: 20px 50px;
+    text-align: center;
+    width: 100%;
 }
 
 
