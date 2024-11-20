@@ -88,18 +88,9 @@ html, body
     margin-top: auto; /* يجعل الـ Footer دائمًا في الأسفل */
     z-index: 10; /* أعلى من العناصر الأخرى */
     position: relative; /* مطلوب لتفعيل z-index */
-     border: 2px solid red;
+   
 }
 
-/* جعل الـ footer مرنًا في الأجهزة الصغيرة */
-@media (max-width: 576px) {
-  .footer img {
-    max-width: 80px; /* تصغير حجم الشعار */
-  }
-  .footer p {
-    font-size: 12px; /* تصغير النص */
-  }
-}
 
 .alert-custom {
     width: 50%;
