@@ -2,6 +2,7 @@ body
 {
     font-family: 'Cairo', sans-serif;
     background-color: #f4f9f6;
+    margin-bottom: 80px;
 }
 
 .btn-success
@@ -83,6 +84,9 @@ body
     padding-right: 40px;
     padding-left: 50px;
     padding-top: 20px;
+    padding-bottom: 10px; /* إضافة مساحة داخلية سفلية */
+    z-index: 10; /* ضمان أن يبقى الـ Footer فوق باقي العناصر */
+    text-align: center; /* لتنسيق المحتوى */
 }
 
 
