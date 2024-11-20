@@ -81,7 +81,7 @@ html, body
 
 /* إجبار الـ footer على البقاء في الأسفل */
 .footer {
-  background-color: #f8f9fa; 
+  background-color: black;
   padding: 15px 0; /* لتوفير مساحة مناسبة */
   text-align: center; /* تحسين التمركز */
   position: relative; /* الافتراضي */
